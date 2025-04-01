@@ -7,8 +7,7 @@
 
 A full-stack music management platform with secure user authentication, cloud storage emulation, and seamless audio playback.
 
-![Soli Music Interface](https://via.placeholder.com/800x400?text=Soli+Music+Interface+Preview)  
-*(Replace with actual application screenshot)*
+
 
 ## ✨ Key Features
 
