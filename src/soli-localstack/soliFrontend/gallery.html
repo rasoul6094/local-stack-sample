@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Music Gallery</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body onload="checkAuth()">
+    <nav>
+        <a href="upload.html">Upload</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="login.html" onclick="logout()">Logout</a>
+    </nav>
+    <h2>Music Gallery</h2>
+    <div id="loading" class="loading">Loading...</div>
+    <div class="gallery" id="gallery"></div>
+
+    <footer>
+        <p>© 2023 Music Gallery. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <script src="js/auth.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

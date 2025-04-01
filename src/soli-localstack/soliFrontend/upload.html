@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Upload Music</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/upload.css">
+</head>
+<body onload="checkAuth()">
+    <nav>
+        <a href="upload.html">Upload</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="login.html" onclick="logout()">Logout</a>
+    </nav>
+    <form onsubmit="uploadMusic(event)">
+    <h2>Upload Music</h2>
+    <input type="file" id="music" name="music" accept="audio/*" required><br><br>
+    <button type="submit">Upload</button>
+</form>
+
+    <script src="js/auth.js"></script>
+    <script src="js/upload.js"></script>
+</body>
+</html>
